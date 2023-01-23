@@ -31,3 +31,8 @@ let icecreamStore = {
 shoeStore.print()
 icecreamStore.shout()
 
+for(let prop in icecreamStore) {
+	console.log('icecream property: ' + prop)
+	const value = icecreamStore[prop]
+	console.log('icecream value: ' + value)
+}
