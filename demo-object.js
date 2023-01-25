@@ -36,3 +36,5 @@ for(let prop in icecreamStore) {
 	const value = icecreamStore[prop]
 	console.log('icecream value: ' + value)
 }
+
+console.log( Object.keys(icecreamStore) )
